@@ -11,7 +11,7 @@ public class CustomerServiceImpl implements CustomerService {
 	//aki va la logica del programa y se instancia la interface a travez 
 	//la clase repositorio
 	
-	
+	//esto lo puede hacer mas facis SPRING usa una factory
 	private CustomerRepository customerRepository = new HibernateCustomerRepositoryImpl();
 	
 	//aki se crea los web services
